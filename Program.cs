@@ -22,7 +22,7 @@ namespace ManyArry
             {
                 for (int colum = 0; colum < myArry.GetLength(1); colum++)
                 {
-                   Console.Write("{0,1}", myArry[row,colum]);
+                   Console.Write("{0,5}", myArry[row,colum]);
                 }
                 Console.WriteLine();    
             }
